@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.primeiradivzona{
+    background-color:rgb(113,192,161);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.primeiradivzona.logo{
+    z-index: 5;
+}
+.segundadivzona{
+    background-color:#2A5243;
+    height: 100vh;
+    width: 100%;
+}
