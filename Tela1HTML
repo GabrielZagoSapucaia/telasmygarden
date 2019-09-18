@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="paginicial.css" media="screen" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <section class="section-1">
+        <nav class="fadeInSec">
+            <ul>
+                <li><a href="#">INDIQUE</a></li>
+                <li><a href="#">BUSQUE</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </nav>
+        <img src="logo.svg" alt="Logo" class="fadeInPrin">
+        <a href="#" class="icon-wrapper-a">
+            <i class="material-icons fadeInSec">expand_more</i>
+        </a>
+    </section>
+    <section class="section-2">
+            
+    </section>
+</div>
+</body>
+</html>
