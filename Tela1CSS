@@ -16,7 +16,7 @@
 
 .section-1 nav {
     position: absolute;
-    top: 20%;
+    top: 10%;
     
 }
 
@@ -27,19 +27,20 @@
 }
 
 .section-1 nav ul li{
-    font-size: 40px;
-    margin: 10px 40px;
+    font-size: 35px;
+    margin: 20px 40px;
 }
 
 .section-1 nav ul li a{
     text-decoration: none;
-    color: #3c6382;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: background-color 1s;
 }
 
 .section-1 nav ul li a:hover{
-    color: white;
+    color: #3c6382;
+    border-bottom: 2px solid #3c6382 ;
 }
 
 .section-1 img{
@@ -52,12 +53,12 @@
 
 }
 .section-1 i{
-    color: #3c6382;
+    color: white;
     font-size: 100px;
 }
 
 .section-1 i:hover{
-    color: white;
+    color: #3c6382;
 }
 
 .section-2 {
