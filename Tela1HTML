@@ -19,7 +19,7 @@
                 <li><a href="#">LOGIN</a></li>
             </ul>
         </nav>
-        <img src="logo.svg" alt="Logo" class="fadeInPrin">
+        <img src="logo2branco.svg" alt="Logo" class="fadeInPrin">
         <a href="#" class="icon-wrapper-a">
             <i class="material-icons fadeInSec">expand_more</i>
         </a>
