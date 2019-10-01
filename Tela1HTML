@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="paginicial.css" media="screen" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -19,13 +19,22 @@
                 <li><a href="#">LOGIN</a></li>
             </ul>
         </nav>
-        <img src="C:\Users\gabriel.sapucaia\Desktop\telasmygarden-master\tentando_ne\logo2branco.svg" alt="Logo" class="fadeInPrin">
+        <img src="C:\Users\Intel\Desktop\tentando_ne\logo2branco.svg" alt="Logo" class="fadeInPrin">
         <a href="#" class="icon-wrapper-a">
             <i class="material-icons fadeInSec">expand_more</i>
         </a>
     </section>
     <section class="section-2">
-            
+        <div>
+            <h1>Sobre MyGarden</h1>
+            <br>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo voluptate non corrupti, perspic
+                iatis nobis a ducimus repellat rem! Minima laudantium praesentium blanditiis numquam ad labore
+                 quam quia eius veniam quis.
+                 
+            </p>
+        </div>
     </section>
 </div>
 </body>
