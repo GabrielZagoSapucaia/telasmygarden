@@ -73,19 +73,22 @@
     justify-content: center;
 }
 .section-2 div h1{
-    position: absolute;
-    top: 110%;
+    font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 60px;
     color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .section-2 div p{
-    position: absolute;
-    top: 125%;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: center;
     color: white;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
