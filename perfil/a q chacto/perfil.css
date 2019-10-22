@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 2px 3px #353b48;
+}
+
+.nome-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.nome{
+    color: #2ecc71;
+    font-family: 'Segoe UI';
+    font-size:28px;
+    margin: 10px;
+}
+
+.esquerda{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.fotinho{
+    margin-bottom: 10px;
+}
+
+.nota{
+    width: 240px;
+    height: 40px;
+    background-color: #353b48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.notaNum{
+    color: #2ecc71;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.estrelinha{
+    margin: 10px 5px 10px 0px;
+}
+
+.infos{
+    width: 240px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.contato{
+    color: #2ecc71;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    color: #2ecc71;
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.vltr{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    transition: background-color 1s;
+    margin-bottom: 30px;
+    display: fixed;
+}
+
+.vltr:hover{
+    color: #353b48;
+    border-bottom: 2px solid #353b48 ;
+}
