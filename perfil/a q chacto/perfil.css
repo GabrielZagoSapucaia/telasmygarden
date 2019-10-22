@@ -6,7 +6,7 @@
 section{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-color: #2ecc71;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,54 +14,136 @@ section{
 }
 
 .card{
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: 510px;
     background-color: white;
-    border-radius: 35px;
+    border-radius: 32px;
     box-shadow: 2px 3px #353b48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nome-wrapper{
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 12%;
 }
 
 .nome{
     color: #2ecc71;
     font-family: 'Segoe UI';
-    font-size:28px;
-    margin: 10px;
+    font-size:20px;
+    margin: 8px;
 }
 
 .esquerda{
     display: flex;
-    width: 300px;
-    height: 500px;
-    margin: 20px;
+    width: 230px;
+    height: 440px;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: white;
 }
 
+.direita{
+    display: flex;
+    width: 700px;
+    height: 450px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 10px;
+    border-left: 1px solid #353b48 ;
+}
+
+.desc{
+    width: 650px;
+    height: 275px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 25px 20px 25px;
+    border-bottom: 1px solid #353b48 ;
+}
+
+.resto{
+    width: 650px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    margin: 0px 25px 0px 25px
+}
+
+.ende{
+    width: 480px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dNota{
+    width: 170px;
+    height: 120px;
+    background-color: #353b48 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aval{
+    width: 150px;
+    height: 28px;
+    margin: 2px;
+}
+
+.btn{
+    width: 150px;
+    height: 28px;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.desc-txt{
+    color: #2ecc71;
+    font-size: 19.5px;
+    font-family: 'Segoe UI';
+    text-align: left;
+}
+
+.aval-txt{
+    color: #2ecc71;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
 .fotinho{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .nota{
-    width: 240px;
-    height: 40px;
+    width: 216px;
+    height: 36px;
     background-color: #353b48;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .notaNum{
     color: #2ecc71;
     font-family: 'Segoe UI';
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .estrelinha{
@@ -69,8 +151,8 @@ section{
 }
 
 .infos{
-    width: 240px;
-    height: 200px;
+    width: 216px;
+    height: 180px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -81,8 +163,8 @@ section{
 .contato{
     color: #2ecc71;
     font-family: 'Segoe UI';
-    font-size: 18px;
-    margin: 20px 0px;
+    font-size: 16px;
+    margin: 18px 0px;
     font-weight: bold;
 }
 
@@ -94,6 +176,15 @@ li{
     color: #2ecc71;
     text-align: center;
     margin: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.ende-li{
+    color: #2ecc71;
+    text-align: left;
+    margin: 0px 0px;
     font-size: 18px;
     font-family: 'Segoe UI';
     font-weight: bold;
@@ -102,11 +193,12 @@ li{
 .vltr{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 27px;
     font-family: 'Segoe UI';
     transition: background-color 1s;
-    margin-bottom: 30px;
-    display: fixed;
+    margin-bottom: 27px;
+    box-sizing: border-box;
+    height: 36px;
 }
 
 .vltr:hover{
